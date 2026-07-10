@@ -1,3 +1,4 @@
+alert("JavaScript Works");
 // =========================================
 // Mahmoud & Wesam Wedding
 // Version 1.0
