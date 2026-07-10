@@ -16,11 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 1500);
 
 });
-    }, 2000);
-
-});
-
-
+   
 // Music Button
 
 const music = document.getElementById("music");
