@@ -1,4 +1,3 @@
-alert("JavaScript Works");
 // =========================================
 // Mahmoud & Wesam Wedding
 // Version 1.0
@@ -6,24 +5,17 @@ alert("JavaScript Works");
 
 // Loader
 
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
     const loader = document.getElementById("loader");
 
-    setTimeout(() => {
-
-        window.addEventListener("load", () => {
-
-    const loader = document.getElementById("loader");
-
-    if (loader) {
-        setTimeout(() => {
+    setTimeout(function () {
+        if (loader) {
             loader.style.display = "none";
-        }, 1500);
-    }
+        }
+    }, 1500);
 
 });
-
     }, 2000);
 
 });
