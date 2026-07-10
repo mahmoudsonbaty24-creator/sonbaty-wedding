@@ -12,9 +12,17 @@ window.addEventListener("load", () => {
 
     setTimeout(() => {
 
-        loader.style.opacity = "0";
+        window.addEventListener("load", () => {
 
-        loader.style.visibility = "hidden";
+    const loader = document.getElementById("loader");
+
+    if (loader) {
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 1500);
+    }
+
+});
 
     }, 2000);
 
